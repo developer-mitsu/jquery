@@ -1,0 +1,78 @@
+body, h1, ul {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/*               問題１のスタイル                */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーー */
+#q-1 {
+  width: 100%;
+  background: #E65965;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#q-1 h2 {
+  font-size: 70px;
+  color: white;
+}
+
+#q-1 h2:hover {
+  cursor: pointer;
+}
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/*               問題２のスタイル                */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーー */
+#q-2 {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #F1F9F9;
+}
+
+#change-btn {
+  display: inline-block;
+  width: 30vw;
+  text-align: center;
+  padding: 10px;
+  background: #114B5F;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/*                問題３のスタイル                */
+/* ーーーーーーーーーーーーーーーーーーーーーーーーーー */
+/* 問題２と大きく共通してますがわかりやすくするためにこのような書き方にしました。 */
+#q-3 {
+  height: 200px;
+  text-align: center;
+  background: #ecba5d;
+}
+
+#slide-btn {
+  display: inline-block;
+  margin-top: 50px;
+  width: 10vw;
+  text-align: center;
+  padding: 10px;
+  background: rgb(202, 19, 49);
+  border-radius: 3px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.none {
+  display: none;
+}

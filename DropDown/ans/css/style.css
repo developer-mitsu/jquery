@@ -1,0 +1,29 @@
+header > nav {
+  width: 70%;
+  margin: 0 auto;
+  color: #2c2c2c;
+}
+
+.nav-parent {
+  display: flex;
+  text-align: center;
+}
+
+.nav-title {
+  background: rgba(0, 128, 0);
+}
+
+.nav-title:hover {
+  background: rgba(0, 128, 0, 0.8);
+  cursor: pointer;
+}
+
+.nav-parent > li {
+  /* padding: 0 2em; */
+  width: 30%;
+}
+
+.nav-child {
+  background: lightgreen;
+  display: none;
+}
